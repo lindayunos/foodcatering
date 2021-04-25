@@ -1,0 +1,63 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="signup.master.cs" Inherits="FoodCatering.signup" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>HoumsFood a Food Category Flat Bootstarp responsive Website Template| HOME :: w3layouts</title>
+    <meta name="viewport" content="width=device-width; initial-scale=1"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="HoumsFood Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+    Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <link href="Content/bootstrap1.css" rel='stylesheet' type='text/css' />
+    <link href="Content/style.css" rel='stylesheet' type='text/css' />
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <!---- start-smoth-scrolling---->
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+</script>
+
+<!--start-smoth-scrolling-->
+    </head>
+
+<body>
+    <!--start-header-->
+	<div class="header" id="home">
+		<div class="container">
+			<div class="header-top">
+			<div class="logo">
+				<a href="default.aspx"><img src="images/logo.png" alt=""/></a>
+			</div>
+			<div class="navigation">
+				 <span class="menu"></span> 
+					<ul class="navig">
+						<li><a href="Default.aspx" class="scroll active">HOME</a></li>
+						<li><a href="Login.aspx" class="scroll">LOG IN</a></li>
+					</ul>
+			</div>
+				<div class="clearfix"></div>
+			</div>
+			</div>
+		</div>	
+	<!-- script-for-menu -->
+		 <script>
+             $("span.menu").click(function () {
+                 $(" ul.navig").slideToggle("slow", function () {
+                 });
+             });
+         </script>
+		 <!-- script-for-menu -->
+	<!--end-header-->
+	<asp:ContentPlaceHolder ID="SignUpContent" runat="server">
+</asp:ContentPlaceHolder>
+<hr />   
+</body>
+</html>

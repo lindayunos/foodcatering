@@ -1,0 +1,108 @@
+﻿
+.singup {
+    background: url(../images/food.png) no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    -ms-background-size: 100% 100%;
+    min-height: 770px;
+}
+
+.singup-text {
+    margin-top: 14%;
+}
+
+.singup-left h3 {
+    color: #fff;
+    font-size: 6em;
+    font-weight: bold;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.singup-bottom input[type="text"] {
+    width: 70%;
+    margin: 0px auto 15px;
+    color: floralwhite;
+    font-size: 12px;
+    font-weight: bold;
+    background: none;
+    padding: 9px 16px;
+    outline: none;
+    border: 3px solid #878787;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+}
+
+
+
+
+.singup-bottom textarea {
+    width: 70%;
+    margin: 4px 0;
+    color: white;
+    resize: none;
+    font-size: 12px;
+    font-weight: bold;
+    background: none;
+    height: 150px;
+    padding: 10px 16px;
+    outline: none;
+    border: 3px solid #878787;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+}
+
+.singup-bottom input[type=submit] {
+    color: #2d2f31;
+    padding: 7px 30px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 27px 0 0 0px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    background: #fff;
+    border: none;
+}
+
+    .singup-bottom input[type=submit]:hover {
+        background: #ff5e3a;
+        color: #fff;
+        transition: 0.5s all;
+        -webkit-transition: 0.5s all;
+        -moz-transition: 0.5s all;
+        -ms-transition: 0.5s all;
+        -o-transition: 0.5s all;
+    }
+
+.s-btn {
+    text-align: right;
+    margin-right: 29.7%;
+}
+
+.singup-bottom p {
+    color: #f3f3f3;
+    font-size: 10px;
+    margin-bottom: 8px;
+}
+
+.singup-bottom sup {
+    top: -.9em;
+    margin-left: 5px;
+}
+
+.singup-left {
+    margin-top: 6%;
+}
+/*--contact-ends--*/
